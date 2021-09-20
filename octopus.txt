@@ -1,0 +1,5 @@
+What it do? I am all about the octopus methodology for merge sort.
+I basically do whatever an octopus does using logical statements.
+It is true what they say: "The octopus is always right." but not always...
+You don't want to do what an octopus would do when you're in the Server Room.
+That would be bad.

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Game</title>
+    <link href="styles.css" rel="stylesheet"></link>
+    
+
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+   <!-- <div id="overlay"></div> -->
+   <div id="header-div">
+    <header>
+        <h1>Typing Game</h1>
+        
+    </header> 
+    <button id="start-button">Start Clock</button>
+    <p id="clock"></p>
+</div>
+    <input type="file" onchange="loadFile(this.files[0])">
+    <div id= "text-container">
+        <pre id="output"></pre>
+        <p id="mistakes">Number of mistakes: 0</p>
+    </div>
+    <section id= "mid-section">
+    <div id=results class="invisible">
+        <h2>Results:</h2>
+        <p id="accuracy"></p>
+        <p id="wpm"></p>
+    </div>
+    <div id="contact">
+        <ul>
+            <li>Author: Cleveland Plonsey</li>
+            <li>googleapis with the fonts</li>
+            <li>github: CleveyP</li>
+        </ul>
+    </div>
+</section>
+</body>
+<script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous" async></script>
+<script src="script.js" defer></script>
+</html>

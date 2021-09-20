@@ -1,0 +1,130 @@
+body{
+    background-color: beige;
+    height: 1000px;
+    width: 100vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25;
+    border: 3px solid black;
+}
+
+input{
+    position: relative;
+    left: 45%;
+    background-color: yellowgreen;
+}
+
+#header-div{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+header{
+
+    background:slategrey;
+    border: black solid 3px;
+    width: 50%;
+    
+}
+
+#clock{
+    background-color: greenyellow;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    border: crimson dotted 3px;
+
+}
+
+#start-button{
+    height: 100px; 
+    width: 100px;
+    border:  solid black 3px;
+    border-radius: 15px;
+    background-color: crimson;
+    color: black;
+
+}
+
+#start-button:hover{
+    transition: all 1s;
+    color: yellow;
+    background-color: navy;
+}
+
+#start-button:active{
+    color: crimson;
+    background-color: black;
+    height: 90px;
+    width: 90px;
+}
+
+
+h1, h2, h3, h4, h5{
+    font-size: 40;
+    color:crimson;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+}
+#text-container{
+    z-index: 2;
+    width: 1200px;
+    margin: 20px;
+    padding: 20px;
+    border: black solid 3px;
+    background-color: seagreen;
+    box-shadow: grey 5px 5px;
+}
+
+#output{
+    width: 900;
+    background-color: blanchedalmond;
+    color: navy;
+    letter-spacing: 3px;
+    border: black dotted 3px;
+    padding: 10px;
+    font-size: 25; 
+}
+.invisible{
+    display: none;
+}
+
+#results{
+    margin-top: 5px;
+    border:red solid 3px;
+    height: 200px;
+    width: 400px;
+    background-color: sandybrown;
+    text-align:center;
+    box-shadow: darkgreen 5px 5px;
+}
+
+#contact{
+    margin-top: 5px;
+    background-color: sandybrown;
+    height: 200px;
+    width: 400px;
+    border: red solid 3px;
+    box-shadow: darkgreen 5px 5px;
+}
+
+#mid-section{
+    position:relative;
+    top: 30px;
+    left: 200px;
+    height: 230px;
+    width: 850px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: seagreen;
+    border:black solid 3px;
+}
+
+#overlay{
+    height:inherit;
+    width: inherit;
+    background-color: grey;
+    opacity: 0.5;
+    z-index: 1;
+    position: absolute;
+}

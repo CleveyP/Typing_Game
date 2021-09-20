@@ -1,0 +1,5 @@
+div {
+height: 100px;
+background-color: red;
+animation-name: example;
+animation-duration: 4s;}
